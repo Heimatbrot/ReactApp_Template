@@ -1,4 +1,8 @@
-
+#apptitle{
+    font-family: cursive;
+    text-decoration: underline;
+    text-decoration-thickness: auto;
+}
 
 .App {
     text-align: center;
@@ -15,10 +19,9 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: 1px solid #ccc;
-    padding: 0px;
+    background-color: 1px solid #b3c1b1;
     box-sizing: border-box;
-    background-color: lightgray;
+    background-color: #b3c1b1;
   }
 
 .links {
@@ -27,9 +30,10 @@
     user-select: none; /* Standard syntax */
 
     flex: 1;
-    padding: 35px;
+    padding: 40px;
+    padding-top: 20px;
     border: none;
-    background-color: rgb(179, 193, 177);
+    background-color: #b3c1b1;
     font-size: 16px;
     font-weight: bold;
     color: #333;
@@ -37,5 +41,5 @@
 }
 
 .links:hover {
-    color: rgb(238, 238, 238);
+    color: #eeeeee;
 }
