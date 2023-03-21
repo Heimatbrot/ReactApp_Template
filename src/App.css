@@ -1,5 +1,11 @@
+body {
+    background-color: whitesmoke;
+}
 .App {
     text-align: center;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .menu {
@@ -11,21 +17,23 @@
     display: flex;
     justify-content: space-around;
     background-color: 1px solid #ccc;
-    padding: 10px;
+    padding: 0px;
     box-sizing: border-box;
   }
 
 .links {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+
     flex: 1;
-    padding: 10px;
-    margin: 0 10px;
-    border: 1px solid #ccc;
-    background-color: #f2f2f2;
+    padding: 25px;
+    border: none;
+    background-color: lightgray;
     font-size: 16px;
     font-weight: bold;
     color: #333;
     cursor: pointer;
-    border-radius: 5px;
 }
 
 .links:hover {
