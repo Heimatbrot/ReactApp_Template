@@ -32,6 +32,7 @@
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
+    -webkit-tap-highlight-color: transparent;
 
     flex: 1;
     padding: 40px;
@@ -42,6 +43,10 @@
     font-weight: bold;
     color: #333;
     cursor: pointer;
+}
+
+.links:active {
+    outline: none;
 }
 
 .links:hover {
