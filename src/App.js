@@ -30,16 +30,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Menu<br></br>
-          <button onClick={handleClick1}>Page 1</button>
-          <button onClick={handleClick2}>Page 2</button>
-          <button onClick={handleClick3}>Page 3</button>
-        </p>
+        <h1><u>Homebread</u></h1>
+      </header>
+      <body>
         {showPage1 && <Page1 />}
         {showPage2 && <Page2 />}
         {showPage3 && <Page3 />}
-      </header>
+        <div class="menu">
+          <button onClick={handleClick1} class="links">Page 1</button>
+          <button onClick={handleClick2} class="links">Page 2</button>
+          <button onClick={handleClick3} class="links">Page 3</button>
+        </div>
+      </body>
     </div>
   );
 }
