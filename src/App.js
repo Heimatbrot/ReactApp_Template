@@ -46,7 +46,7 @@ function App() {
         {showPage2 && <Page2 />}
         {showPage3 && <Page3 />}
         <div class="menu">
-          <button onClick={handleClick1} class="links" id="page1link" style="color: #eeeeee">Page 1</button>
+          <button onClick={handleClick1} class="links" id="page1link" style={{color: "#eeeeee"}}>Page 1</button>
           <button onClick={handleClick2} class="links" id="page2link">Page 2</button>
           <button onClick={handleClick3} class="links" id="page3link">Page 3</button>
         </div>
