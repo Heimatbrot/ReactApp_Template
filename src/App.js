@@ -39,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 id="apptitle">Homebread</h1>
+        <h1 id="apptitle">ReactApp_Template"</h1>
       </header>
       <body>
         {showPage1 && <Page1 />}
