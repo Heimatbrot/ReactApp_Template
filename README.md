@@ -7,28 +7,28 @@ You can try the game live at: https://heimatbrot.github.io/ReactApp_Template
 ## Getting Started
 To get a local copy up and running, follow these steps:
 
-## Clone the repository to your local machine:
+### Clone the repository to your local machine:
 Copy code
 ```
 git clone https://github.com/heimatbrot/ReactApp_Template.git
 ```
-## Install the dependencies:
+### Install the dependencies:
 Copy code
 ```
 npm install
 ```
-## Start the development server:
+### Start the development server:
 Copy code
 ```
 npm start
 ```
-## Deployment
-### install Github Pages
+### Deployment
+#### install Github Pages
 Copy code
 ```
 npm install gh-pages --save-dev
 ```
-### Then to deploy the app to GitHub Pages, run:
+#### Then to deploy the app to GitHub Pages, run:
 ```
 npm run deploy
 ```
