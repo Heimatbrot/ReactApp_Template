@@ -2,7 +2,7 @@
 This is a basic setup for a React App. It was meant for me to be able to set it up quickly but please feel free to use it for your own.
 
 ## Demo
-You can try the game live at: https://heimatbrot.github.io/ReactApp_Template
+You can try the template live at: https://heimatbrot.github.io/ReactApp_Template
 
 ## Getting Started
 To get a local copy up and running, follow these steps:
